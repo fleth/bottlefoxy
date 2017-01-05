@@ -1,0 +1,30 @@
+.ffxiv-font{
+	color: #ebe3c5;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.ffxiv-panel-header {
+	background: linear-gradient(white, gray);
+}
+.ffxiv-panel-bg {
+	background-image: url(../image/background.png);
+	background-repeat: repeat;
+}
+.ffxiv-panel-hr {
+	border-top: 1px solid #bbb;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #aaaaaa;
+}
+.container {
+  flex: 1;
+}

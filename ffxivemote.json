@@ -1,0 +1,556 @@
+{
+	"data": {
+		"General": {
+			"bow": {
+				"name": "お辞儀する",
+				"no_target": "<me>はお辞儀した。",
+				"target": "<me>は<target>にお辞儀した。",
+				"image": "png"
+			},
+			"welcome": {
+				"name": "歓迎する",
+				"no_target": "<me>は歓迎した。",
+				"target": "<me>は<target>を歓迎した。",
+				"image": "png"
+			},
+			"goodbye": {
+				"name": "さようなら",
+				"no_target": "<me>は別れの挨拶をした。",
+				"target": "<me>は<target>に別れの挨拶をした。",
+				"image": "png"
+			},
+			"wave": {
+				"name": "手を振る",
+				"no_target": "<me>は手を振った。",
+				"target": "<me>は<target>に手を振った。",
+				"image": "png"
+			},
+			"kneel": {
+				"name": "ひざまずく",
+				"no_target": "<me>はひざまずいた。",
+				"target": "<me>は<target>の前にひざまずいた。",
+				"image": "png"
+			},
+			"salute": {
+				"name": "敬礼する",
+				"no_target": "<me>は敬礼した。",
+				"target": "<me>は<target>に敬礼した。",
+				"image": "png"
+			},
+			"imperialsalute": {
+				"name": "帝国式敬礼",
+				"no_target": "<me>は帝国式敬礼をした。",
+				"target": "<me>は<target>に帝国式敬礼をした。",
+				"image": "png"
+			},
+			"chuckle": {
+				"name": "笑う",
+				"no_target": "<me>は笑った。",
+				"target": "<me>は<target>を笑った。",
+				"image": "png"
+			},
+			"laugh": {
+				"name": "大笑いする",
+				"no_target": "<me>は大笑いした。",
+				"target": "<me>は<target>のことを大笑いした。",
+				"image": "png"
+			},
+			"joy": {
+				"name": "喜ぶ",
+				"no_target": "<me>は喜んだ。",
+				"target": "<me>は<target>に喜んでみせた。",
+				"image": "png"
+			},
+			"happy": {
+				"name": "すごく喜ぶ",
+				"no_target": "<me>はすごく喜んだ。",
+				"target": "<me>は<target>にすごく喜んでみせた。",
+				"image": "png"
+			},
+			"rally": {
+				"name": "励ます",
+				"no_target": "<me>は励ました。",
+				"target": "<me>は<target>を励ました。",
+				"image": "png"
+			},
+			"soothe": {
+				"name": "なだめる",
+				"no_target": "<me>はなだめた。",
+				"target": "<me>は<target>をなだめた。",
+				"image": "png"
+			},
+			"blush": {
+				"name": "照れる",
+				"no_target": "<me>は照れた。",
+				"target": "<me>は<target>に照れてみせた。",
+				"image": "png"
+			},
+			"comfort": {
+				"name": "なぐさめる",
+				"no_target": "<me>はなぐさめた。",
+				"target": "<me>は<target>をなぐさめた。",
+				"image": "png"
+			},
+			"psych": {
+				"name": "活を入れる",
+				"no_target": "<me>は活を入れた。",
+				"target": "<me>は<target>に活を入れた。",
+				"image": "png"
+			},
+			"pray": {
+				"name": "祈る",
+				"no_target": "<me>は祈った。",
+				"target": "<me>は<target>に祈った。",
+				"image": "png"
+			},
+			"respect": {
+				"name": "黙祷",
+				"no_target": "<me>は黙祷を捧げた。",
+				"target": "<me>は<target>に黙祷を捧げてみせた。",
+				"image": "png"
+			},
+			"blowkiss": {
+				"name": "投げキッス",
+				"no_target": "<me>は投げキッスをした。",
+				"target": "<me>は<target>に投げキッスをした。",
+				"image": "png"
+			},
+			"dance": {
+				"name": "踊る",
+				"no_target": "<me>は踊った。",
+				"target": "<me>は<target>に踊ってみせた。",
+				"image": "png"
+			},
+			"yes": {
+				"name": "うなずく",
+				"no_target": "<me>はうなずいた。",
+				"target": "<me>は<target>にうなずいてみせた。",
+				"image": "png"
+			},
+			"thumbsup": {
+				"name": "肯定する",
+				"no_target": "<me>は肯定した。",
+				"target": "<me>は<target>に肯定してみせた。",
+				"image": "png"
+			},
+			"clap": {
+				"name": "拍手する",
+				"no_target": "<me>は拍手した。",
+				"target": "<me>は<target>に拍手した。",
+				"image": "png"
+			},
+			"congratulate": {
+				"name": "称賛する",
+				"no_target": "<me>は称賛した。",
+				"target": "<me>は<target>を称賛した。",
+				"image": "png"
+			},
+			"cheer": {
+				"name": "応援する",
+				"no_target": "<me>は応援した。",
+				"target": "<me>は<target>を応援した。",
+				"image": "png"
+			},
+			"hurray": {
+				"name": "勝ちどき",
+				"no_target": "<me>は勝ちどきをあげた！",
+				"target": "<me>は<target>に勝ちどきをあげてみせた！",
+				"image": "png"
+			},
+			"hug": {
+				"name": "ハグ",
+				"no_target": "<me>はハグした。",
+				"target": "<me>は<target>をハグした。",
+				"image": "png"
+			},
+			"stroke": {
+				"name": "なでる",
+				"no_target": "<me>はなでた。",
+				"target": "<me>は<target>をなでた。",
+				"image": "png"
+			},
+			"bstance": {
+				"name": "戦いに備える",
+				"no_target": "<me>は戦いに備えた。",
+				"target": "<me>は<target>に戦いに備えるよう促した。",
+				"image": "png"
+			},
+			"vpose": {
+				"name": "勝利を喜ぶ",
+				"no_target": "<me>は勝利を喜んだ。",
+				"target": "<me>は<target>に勝利の喜びを伝えた。",
+				"image": "png"
+			},
+			"eureka": {
+				"name": "閃く",
+				"no_target": "<me>は閃いた。",
+				"target": "<me>は<target>を見て閃いた。",
+				"image": "png"
+			},
+			"no": {
+				"name": "首を横に振る",
+				"no_target": "<me>は首を横に振った。",
+				"target": "<me>は<target>に首を横に振ってみせた。",
+				"image": "png"
+			},
+			"deny": {
+				"name": "否定する",
+				"no_target": "<me>は否定した。",
+				"target": "<me>は<target>に否定してみせた。",
+				"image": "png"
+			},
+			"cry": {
+				"name": "泣く",
+				"no_target": "<me>は泣いた。",
+				"target": "<me>は<target>に泣いてみせた。",
+				"image": "png"
+			},
+			"furious": {
+				"name": "怒る",
+				"no_target": "<me>は怒った。",
+				"target": "<me>は<target>に怒った。",
+				"image": "png"
+			},
+			"fume": {
+				"name": "悔しがる",
+				"no_target": "<me>は悔しがった。",
+				"target": "<me>は<target>に悔しがってみせた。",
+				"image": "png"
+			},
+			"panic": {
+				"name": "慌てる",
+				"no_target": "<me>は慌てた。",
+				"target": "<me>は<target>に慌ててみせた。",
+				"image": "png"
+			},
+			"upset": {
+				"name": "がっかりする",
+				"no_target": "<me>はがっかりした。",
+				"target": "<me>は<target>にがっかりしてみせた。",
+				"image": "png"
+			},
+			"disappointed": {
+				"name": "すごくがっかりする",
+				"no_target": "<me>はすごくがっかりした。",
+				"target": "<me>は<target>にすごくがっかりしてみせた。",
+				"image": "png"
+			},
+			"sulk": {
+				"name": "すねる",
+				"no_target": "<me>はすねた。",
+				"target": "<me>は<target>にすねてみせた。",
+				"image": "png"
+			},
+			"angry": {
+				"name": "不満を表す",
+				"no_target": "<me>は不満を表した。",
+				"target": "<me>は<target>に不満を表した。",
+				"image": "png"
+			},
+			"huh": {
+				"name": "呆れる",
+				"no_target": "<me>は呆れた。",
+				"target": "<me>は<target>に呆れた。",
+				"image": "png"
+			},
+			"shocked": {
+				"name": "動転する",
+				"no_target": "<me>は動転した。",
+				"target": "<me>は<target>に動転してみせた。",
+				"image": "png"
+			},
+			"shrug": {
+				"name": "肩をすくめる",
+				"no_target": "<me>は肩をすくめた。",
+				"target": "<me>は<target>に肩をすくめてみせた。",
+				"image": "png"
+			},
+			"stagger": {
+				"name": "よろめく",
+				"no_target": "<me>はよろめいた。",
+				"target": "<me>は<target>によろめきかかった。",
+				"image": "png"
+			},
+			"surprised": {
+				"name": "おどろく",
+				"no_target": "<me>はおどろいた。",
+				"target": "<me>は<target>におどろいた。",
+				"image": "png"
+			},
+			"doubt": {
+				"name": "問い詰める",
+				"no_target": "<me>は問い詰めた。",
+				"target": "<me>は<target>を問い詰めた。",
+				"image": "png"
+			},
+			"grovel": {
+				"name": "土下座",
+				"no_target": "<me>は土下座した。",
+				"target": "<me>は<target>に土下座した。",
+				"image": "png"
+			},
+			"slap": {
+				"name": "平手打ち",
+				"no_target": "<me>は平手打ちした。",
+				"target": "<me>は<target>を平手打ちした。",
+				"image": "png"
+			},
+			"facepalm": {
+				"name": "顔を覆う",
+				"no_target": "<me>は顔を覆った。",
+				"target": "<me>は<target>に顔を覆ってみせた。",
+				"image": "png"
+			},
+			"pose": {
+				"name": "ポーズをとる",
+				"no_target": "<me>はポーズをとった。",
+				"target": "<me>は<target>にポーズをとった。",
+				"image": "png"
+			},
+			"flex": {
+				"name": "肉体美",
+				"no_target": "<me>は肉体美を誇った。",
+				"target": "<me>は<target>に肉体美を誇ってみせた。",
+				"image": "png"
+			},
+			"beckon": {
+				"name": "手まねきする",
+				"no_target": "<me>は手まねきした。",
+				"target": "<me>は<target>に手まねきした。",
+				"image": "png"
+			},
+			"throw": {
+				"name": "投げる",
+				"no_target": "<me>は何かを投げた。",
+				"target": "<me>は<target>に何かを投げた。",
+				"image": "png"
+			},
+			"handover": {
+				"name": "わたす",
+				"no_target": "<me>は何かをわたした。",
+				"target": "<me>は<target>に何かをわたした。",
+				"image": "png"
+			},
+			"think": {
+				"name": "考える",
+				"no_target": "<me>は考えた。",
+				"target": "<me>は<target>に考えてみせた。",
+				"image": "png"
+			},
+			"examineself": {
+				"name": "自分を見る",
+				"no_target": "<me>は自身の姿を確認した。",
+				"target": "<me>は<target>に自身の姿を披露した。",
+				"image": "png"
+			},
+			"doze": {
+				"name": "居眠りする",
+				"no_target": "<me>は居眠りした。",
+				"target": "<me>は<target>に居眠りしてみせた。",
+				"image": "png"
+			},
+			"point": {
+				"name": "指さす",
+				"no_target": "<me>は指さした。",
+				"target": "<me>は<target>を指さした。",
+				"image": "png"
+			},
+			"poke": {
+				"name": "つつく",
+				"no_target": "<me>はつついた。",
+				"target": "<me>は<target>をつついた。",
+				"image": "png"
+			},
+			"stretch": {
+				"name": "伸びをする",
+				"no_target": "<me>は伸びをした。",
+				"target": "<me>は<target>に伸びをしてみせた。",
+				"image": "png"
+			},
+			"lookout": {
+				"name": "見わたす",
+				"no_target": "<me>は辺りを見わたした。",
+				"target": "<me>は<target>を探すように辺りを見わたした。",
+				"image": "png"
+			},
+			"me": {
+				"name": "アピール",
+				"no_target": "<me>はアピールしてみせた。",
+				"target": "<me>は<target>にアピールしてみせた。",
+				"image": "png"
+			}
+		},
+		"Persistent": {
+			"sdance": {
+				"name": "ステップダンス",
+				"no_target": "<me>はステップダンスを踊った。",
+				"target": "<me>は<target>にステップダンスを踊ってみせた。",
+				"image": "png"
+			},
+			"hdance": {
+				"name": "豊穣の舞",
+				"no_target": "<me>は豊穣の舞を踊った。",
+				"target": "<me>は<target>に豊穣の舞を踊ってみせた。",
+				"image": "png"
+			},
+			"bdance": {
+				"name": "宮廷の舞",
+				"no_target": "<me>は宮廷の舞を踊った。",
+				"target": "<me>は<target>に宮廷の舞を踊ってみせた。",
+				"image": "png"
+			},
+			"mdance": {
+				"name": "紳士の舞",
+				"no_target": "<me>は紳士の舞を踊った。",
+				"target": "<me>は<target>に紳士の舞を踊ってみせた。",
+				"image": "png"
+			},
+			"bombdance": {
+				"name": "ボム踊り",
+				"no_target": "<me>はボム踊りを踊った。",
+				"target": "<me>は<target>にボム踊りを踊ってみせた。",
+				"image": "png"
+			},
+			"hildy": {
+				"name": "事件屋の決めポーズ",
+				"no_target": "<me>は事件屋の決めポーズをとった。",
+				"target": "<me>は<target>に事件屋の決めポーズをとった。",
+				"image": "png"
+			},
+			"sundance": {
+				"name": "太陽の舞",
+				"no_target": "<me>は太陽の舞を踊った。",
+				"target": "<me>は<target>に太陽の舞を踊ってみせた。",
+				"image": "png"
+			},
+			"rposered1": {
+				"name": "戦士の演武：壱",
+				"no_target": "<me>は戦士の演武：壱を決めた。",
+				"target": "<me>は<target>に戦士の演武：壱を決めてみせた。",
+				"image": "png"
+			},
+			"rposered2": {
+				"name": "戦士の演武：壱ノ裏",
+				"no_target": "<me>は戦士の演武：壱ノ裏を決めた。",
+				"target": "<me>は<target>に戦士の演武：壱ノ裏を決めてみせた。",
+				"image": "png"
+			},
+			"rposeblack1": {
+				"name": "戦士の演武：弐",
+				"no_target": "<me>は戦士の演武：弐を決めた。",
+				"target": "<me>は<target>に戦士の演武：弐を決めてみせた。",
+				"image": "png"
+			},
+			"rposeblack2": {
+				"name": "戦士の演武：弐ノ裏",
+				"no_target": "<me>は戦士の演武：弐ノ裏を決めた。",
+				"target": "<me>は<target>に戦士の演武：弐ノ裏を決めてみせた。",
+				"image": "png"
+			},
+			"rposeyellow1": {
+				"name": "戦士の演武：参",
+				"no_target": "<me>は戦士の演武：参を決めた。",
+				"target": "<me>は<target>に戦士の演武：参を決めてみせた。",
+				"image": "png"
+			},
+			"rposeyellow2": {
+				"name": "戦士の演武：参ノ裏",
+				"no_target": "<me>は戦士の演武：参ノ裏を決めた。",
+				"target": "<me>は<target>に戦士の演武：参ノ裏を決めてみせた。",
+				"image": "png"
+			}
+		},
+		"Expressions": {
+			"straitface": {
+				"name": "表情：素顔",
+				"no_target": "<me>は素の表情になった。",
+				"target": "<me>は<target>に素の表情をしてみせた。",
+				"image": "png"
+			},
+			"smile": {
+				"name": "表情：微笑",
+				"no_target": "<me>は微笑を浮かべた。",
+				"target": "<me>は<target>に微笑んでみせた。",
+				"image": "png"
+			},
+			"grin": {
+				"name": "表情：笑顔",
+				"no_target": "<me>は笑顔になった。",
+				"target": "<me>は<target>に笑顔をみせた。",
+				"image": "png"
+			},
+			"wink": {
+				"name": "表情：ウィンク",
+				"no_target": "<me>はウィンクした。",
+				"target": "<me>は<target>にウィンクしてみせた。",
+				"image": "png"
+			},
+			"smirk": {
+				"name": "表情：自信",
+				"no_target": "<me>は自信あふれる表情になった。",
+				"target": "<me>は<target>に自信あふれる表情をしてみせた。",
+				"image": "png"
+			},
+			"taunt": {
+				"name": "表情：不敵",
+				"no_target": "<me>は不敵な表情になった。",
+				"target": "<me>は<target>に不敵な表情をしてみせた。",
+				"image": "png"
+			},
+			"shuteyes": {
+				"name": "表情：瞑目",
+				"no_target": "<me>は目を閉ざした。",
+				"target": "<me>は<target>に目を閉ざしてみせた。",
+				"image": "png"
+			},
+			"sad": {
+				"name": "表情：泣き顔",
+				"no_target": "<me>は泣き顔になった。",
+				"target": "<me>は<target>に泣き顔をみせた。",
+				"image": "png"
+			},
+			"scared": {
+				"name": "表情：恐怖",
+				"no_target": "<me>は恐怖を感じた表情になった。",
+				"target": "<me>は<target>に恐怖を感じた表情をしてみせた。",
+				"image": "png"
+			},
+			"amazed": {
+				"name": "表情：呆然",
+				"no_target": "<me>は呆然とした表情になった。",
+				"target": "<me>は<target>に呆然とした表情をしてみせた。",
+				"image": "png"
+			},
+			"ouch": {
+				"name": "表情：激痛",
+				"no_target": "<me>は痛そうな表情になった。",
+				"target": "<me>は<target>に痛そうな表情をしてみせた。",
+				"image": "png"
+			},
+			"annoyed": {
+				"name": "表情：不機嫌",
+				"no_target": "<me>は不機嫌そうな表情になった。",
+				"target": "<me>は<target>に不機嫌そうな表情をしてみせた。",
+				"image": "png"
+			},
+			"alert": {
+				"name": "表情：感知",
+				"no_target": "<me>は何かに気づいた表情になった。",
+				"target": "<me>は<target>に何かに気づいた表情をしてみせた。",
+				"image": "png"
+			},
+			"worried": {
+				"name": "表情：心配",
+				"no_target": "<me>は心配そうな表情になった。",
+				"target": "<me>は<target>に心配そうな表情をしてみせた。",
+				"image": "png"
+			},
+			"sneer": {
+				"name": "表情：悪だくみ",
+				"no_target": "<me>はあくどそうな表情をした。",
+				"target": "<me>は<target>にあくどそうな表情をしてみせた。",
+				"image": "png"
+			}
+		}
+	}
+}
