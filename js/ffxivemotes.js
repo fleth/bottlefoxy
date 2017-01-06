@@ -1,21 +1,27 @@
-var FFXIVEmotter = {
+var EmoteList = {
 	emoteList: [],
-	shareURL: "https://goo.gl/UDyiwt",
+	shareURL: "http://bottlefoxy.com/ffxivemotes.html",
 	tweetBaseURL: "https://twitter.com/intent/tweet", 
 	tweetButtonOption: "width=550,height=250,personalbar=no,toolbar=no,location=yes,scrollbars=yes,resizable=yes",
 	init: function(){
 		this.load();
 		$("#tweet").click(function(){
-			var url = this.createTweetURL($("#tweet-text").val());
+			var url = this.createTweetURL($("#emote-text").val());
 			window.open(url, null, this.tweetButtonOption);
 		}.bind(this));
+		$("#random").click(function(){
+			var emotes = $(".emote");
+			var target = Math.floor(Math.random() * (emotes.length+1));
+			var emote = $(emotes[target]).attr("data-emote-command");
+			$("#"+emote).click();
+		});
 	},
 	load: function(){
 		$.getJSON("ffxivemote.json")
 			.success(this.onData.bind(this))
 			.error(this.onFail.bind(this));
 	},
-	onData(data){
+	onData: function(data){
 		this.emoteList = data.data;
 		$.map(this.emoteList,function(value, key){
 			this.create(key, value);
@@ -34,7 +40,7 @@ var FFXIVEmotter = {
 		panel.append($("<hr class='ffxiv-panel-hr'>"));
 		$.map(emotes, function(value, key){
 			var row = this.createRow(name, key, value);
-			var a = this.createEmoteLink(value);
+			var a = this.createEmoteLink(value, key);
 			body.append(a.append(row));
 		}.bind(this));
 		body.append($("<div class='clearfix'>"));
@@ -44,7 +50,7 @@ var FFXIVEmotter = {
 		$("img.lazy-"+name).lazyload({effect:"fadeIn"});
 	},
 	createRow: function(name, command, emote){
-		var row = $("<div class='row emote-icon col-lg-3 col-md-3 col-sm-4 col-xs-6'>");
+		var row = $("<div class='row emote emote-icon col-lg-3 col-md-3 col-sm-4 col-xs-6' data-emote-command='"+command+"'>");
 		row.css("min-width", "200px");
 		row.append($("<div class='col-xs-3'>").append(this.createImage(name, command, emote)));
 		row.append($("<div class='col-xs-9 text-left ffxiv-font'>").append(this.createDescription(emote.name, command)));
@@ -64,12 +70,13 @@ var FFXIVEmotter = {
 		description.attr("title", "/"+command)
 		return description;
 	},
-	createEmoteLink: function(emote){
-		var a = $("<a>");
+	createEmoteLink: function(emote, command){
+		var a = $("<a id='"+command+"'>");
 		a.attr("href", "javascript:void(0);");
 		a.click(function(){
 			var text = this.replaceMessage(this.getMessage(emote));
-			$("#tweet-text").val(text);
+			$("#emote-command").val("/"+command);
+			$("#emote-text").val(text);
 		}.bind(this));
 		return a;
 	},
