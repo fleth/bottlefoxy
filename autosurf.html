@@ -1,0 +1,24 @@
+﻿<html>
+<content charset='UTF-8'>
+<link rel='stylesheet' type='text/css' href='css/autosurf.css'>
+<script type='text/javascript' src='js/autosurf.js'></script>
+<body onLoad='randomAd();'>
+<div id='header' ondragover="event.preventDefault();"  ondrop='getURL(event);'>
+URLを追加（クリックで削除）
+<input type='submit' id='addURL' value='URL入力'  onclick='inputURL();'>
+<input type='submit' id='clear' value='クリア'  onclick='clearURL();'>
+<ul id='url_list'>
+</ul>
+</div>
+<div id='article'>
+<iframe id='surfSiteView' frameborder='0'></iframe>
+</div>
+<div id='footer' align='right'>
+<div id='ad'></div>
+表示間隔:<input type='input' id='surftime' value='30' size='4' maxlength='4'>秒
+<input type='checkbox' id='random' value='1' onclick='ListShuffle();'>ランダム
+<input type='submit' id='start' value='S T A R T' onclick='surfStart();'>
+<input type='submit' id='stop' value='S T O P' onclick='surfStop();' disabled='true'>
+</div>
+</body>
+</html>
